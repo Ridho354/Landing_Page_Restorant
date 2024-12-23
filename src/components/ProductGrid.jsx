@@ -1,6 +1,7 @@
-// src/components/ProductGrid.jsx
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
+import nasgor from '../assets/nasgor.png';
+import esTeh from '../assets/esteh.png';
 
 const ProductGrid = () => {
   const deals = [
@@ -8,13 +9,13 @@ const ProductGrid = () => {
       title: 'Nasi Goreng',
       price: 20,
       originalPrice: 25,
-      image: 'https://gopek.sarirasa.co.id/assets/images/Nasi%20Goreng%20Oriental.png',
+      image: nasgor,
     },
     {
       title: 'Es Teh',
       price: 3,
       originalPrice: 5,
-      image: 'https://i.pinimg.com/474x/2d/d6/8c/2dd68c76dfd0d83cfe17194bc9080538.jpg',
+      image: esTeh,
     },
     {
       title: 'Ayam Bakar',

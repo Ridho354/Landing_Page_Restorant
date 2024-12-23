@@ -22,7 +22,12 @@ const MainPage = () => {
           </div>
         );
       case 'products':
-        return <ImageGrid />;
+        return (
+        <div>
+            <ImageGrid />;
+            <Footer />
+        </div>
+        );
       case 'contact':
         return <ContactForm />;
       default:

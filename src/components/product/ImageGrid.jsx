@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import './portofolio-styles.css';
+import './imageGrid-styles.css';
 import Modal from './Modal';
 import Products from '../../Produtcs';
 
